@@ -55,7 +55,7 @@ SwiftSkyDodgerは、Swiftで作られたmacOS向けの楽しい回避ゲーム�
 ### 1. リポジトリをクローン
 
 ```bash
-git clone https://github.com/your-username/SwiftSkyDodger.git
+git clone https://github.com/okamyuji/SwiftSkyDodger.git
 cd SwiftSkyDodger
 ```
 
@@ -116,7 +116,7 @@ open Package.swift
 最速でゲームを試したい場合：
 
 ```bash
-git clone https://github.com/your-username/SwiftSkyDodger.git
+git clone https://github.com/okamyuji/SwiftSkyDodger.git
 cd SwiftSkyDodger
 swift build && .build/debug/SwiftSkyDodger
 ```
