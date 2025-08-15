@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftSkyDodger}",
+            "name": "Debug SwiftSkyDodger",
+            "program": "${workspaceFolder:SwiftSkyDodger}/.build/debug/SwiftSkyDodger",
+            "preLaunchTask": "swift: Build Debug SwiftSkyDodger"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftSkyDodger}",
+            "name": "Release SwiftSkyDodger",
+            "program": "${workspaceFolder:SwiftSkyDodger}/.build/release/SwiftSkyDodger",
+            "preLaunchTask": "swift: Build Release SwiftSkyDodger"
+        }
+    ]
+}
